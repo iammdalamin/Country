@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  @apply w-full h-full  flex flex-col justify-center items-center mx-auto -z-10;
+}
